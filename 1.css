@@ -1,0 +1,118 @@
+body{
+    padding: 0px;
+    margin: 0;  
+}
+p,h1,b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu_block>p{
+    font-size: 1.2rem;
+    
+}
+.container{
+    display: flex; 
+    padding: 15px;
+    width: 98%;
+    flex-direction: column;
+}
+.menu{
+    display: flex; 
+    height: 70px;
+    background-color: black;
+    flex-wrap:wrap;
+}
+.menu_block{
+    display: flex;
+    height: 100%;
+    color: white;
+    margin: auto;
+    flex-grow:1;
+    justify-content: center;
+    font-weight: 900;
+}
+.menu_block:hover{
+ background-color: #285654;
+}
+.image1{
+    width: 100%;
+    margin-top: 10px;
+    height: 250px;
+    background-image:url('1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content1{
+    display: flex; 
+    margin-top: 15px;
+    flex-wrap:wrap;
+    padding-right:0px ;
+
+}
+.content1_block1{
+    flex-grow:1; 
+    width: 80%;
+    height: 100%;
+    margin-top:-20px ;
+}
+.content1_block2{
+    flex-grow:1;
+    width:20%;
+    
+
+}
+.content1_block2-1{
+    margin: 15px;
+    background-color: wheat;
+    flex-grow:1;
+    font-size: 1.2rem;
+    padding: 5px;
+    font-weight: 900;
+}
+.content1_block2_3>p{
+    padding-left: 30px;
+    color: rgb(13, 192, 13);
+}
+.content1_block2-1-1{
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgb(68, 112, 179);
+    color: white;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.content1_block2_2>p{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.basement{
+    background-color: rgb(178, 236, 61);
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.4rem;
+}
+.basement>center>b{
+    color: rgb(13, 192, 13); 
+}
+h1{
+    color: rgb(138, 67, 34);
+    margin-bottom: 0px;
+    font-size: 3rem;
+    margin-top:0px;
+    padding-left: 30px;
+}
+.content1_block1>p{
+    display: block;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 800;
+    line-height: 2;
+
+}
+a{
+    text-decoration:none;
+    color: green
+}
